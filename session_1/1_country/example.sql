@@ -1,5 +1,6 @@
 -- Basic SQL setup for any database
 
+
 -- Enable readable output format
 .mode columns
 .headers on
