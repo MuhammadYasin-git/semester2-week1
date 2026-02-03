@@ -1,5 +1,6 @@
 -- Basic SQL setup for any database
-
+SELECT Country, Continent from countries WHERE Continent='Asia'
+ORDER BY Population ASC;
 
 -- Enable readable output format
 .mode columns
