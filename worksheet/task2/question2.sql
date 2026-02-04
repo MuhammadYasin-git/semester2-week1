@@ -1,3 +1,9 @@
 -- Find the 5 youngest students in the database.
 -- Expected Columns:
 -- StudentId, FirstName, LastName, DateOfBirth
+
+
+SELECT StudentId, FirstName, LastName, DateOfBirth
+FROM Students
+ORDER BY DATEOFBIRTH DESC
+LIMIT 5;
